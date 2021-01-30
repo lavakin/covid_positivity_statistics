@@ -73,7 +73,7 @@ axis(side=4, las=1)
 mtext("počet", side=4)
 ```
 ### Graf
-![](/home/lavakin/Documents/school/past/zapoctak/plots/poisson.png)
+![](plots/poisson.png)
 
 ### Věrohodnost
 Následně provedeme $\chi^2$ test
