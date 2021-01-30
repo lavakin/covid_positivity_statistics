@@ -1,2 +1,1 @@
-mkdir -p cutted
-chmod -R +x *.sh
+chmod -R +x *.sh *.r
