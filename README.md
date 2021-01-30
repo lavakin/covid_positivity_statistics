@@ -22,7 +22,7 @@ plot(data$muzi, data$zeny, pch = 16, col = "blue", xlab = "ženy", ylab = "muži
 abline(gender_lin)
 ```
 ### Graf
-![](/home/lavakin/Documents/school/past/zapoctak/plots/lin_reg.png)
+![](plots/lin_reg.png)
 
 ### Výsledky  lineární regrese
 ```r
