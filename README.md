@@ -47,7 +47,7 @@ Residual standard error: 0.0747 on 75 degrees of freedom
 Multiple R-squared:  0.6132,	Adjusted R-squared:  0.608 
 F-statistic: 118.9 on 1 and 75 DF,  p-value: < 2.2e-16
 ```
-Hodnota p je <2.2 * 10^16 pro 0,1\% hladinu významnosti, můžeme tedy hypotézu zamítnout a předpokládat, že je mezi daty s 99\% pravděpodobností lineární vztah.
+Hodnota p je <2.2 * 10^16 tedy pod 0,1\% hladinu významnosti, můžeme tedy hypotézu zamítnout a předpokládat, že je mezi daty s 99.9\% pravděpodobností lineární vztah.
 
 ## Poissonovo rozdělení
 Nyní budeme zkoumat, kolik můžeme očekávat lidí v jednom dni a zdali se toto řídí poissonovým rozdělením. K ověření použijeme test dobré shody mezi očekávanými hodnotami a mezi hodnotami naměřenými.
@@ -85,4 +85,4 @@ Následně provedeme chi-square test
 data:  occ and 1:14
 X-squared = 112, df = 104, p-value = 0.2786
 ```
-p-value je tedy 0,279. Hypotézu tedy přijmeme i pro 5\% hladinu významnosti. To znamená, že se nemůžeme s velkou jistotou domnívat, že se počet klientů za den řídí poissonovým rozdělením.
+p-value je tedy 0,279. Hypotézu tedy přijmeme i pro 5\% hladinu významnosti. To znamená, že se nemůžeme s velkou jistotou domnívat, že se počet klientů za den neřídí poissonovým rozdělením.
